@@ -1,0 +1,42 @@
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px auto;
+}
+
+h2{
+    font-size: larger;
+    font-weight: bold;
+    margin: 15px;
+}
+
+nav{
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+}
+
+li{
+    width: 10%;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid black;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0,5s;
+}
+
+li:hover{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
